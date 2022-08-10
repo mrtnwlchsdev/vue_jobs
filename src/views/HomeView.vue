@@ -3,7 +3,7 @@
 
 <template>
   <main>
-    <h1>WELCOME TO VUE</h1>
+    <h1>WELCOME TO VUE ROUTER</h1>
   </main>
 </template>
 
