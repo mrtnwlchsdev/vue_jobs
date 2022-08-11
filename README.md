@@ -1,16 +1,15 @@
-# vue_jobs
+  # Vue Jobs
 
-This template should help get you started developing with Vue 3 in Vite.
+Basic Vue Router application.
 
-## Recommended IDE Setup
+## Tools 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Vue.js 3
+- Vue Router
 
-## Customize configuration
+## Deploy 🛠️
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+### Project Setup
 
 ```sh
 npm install
@@ -20,10 +19,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
