@@ -1,12 +1,26 @@
 <script>
     export default {
-        props: ['id']
+        props: ['id'],
+        data() {
+            return {
+                job: null
+            }            
+        },
+        mounted() {
+            fetch('http://localhost:3000/jobs/' + this.id)
+            .then(response => response.json())
+            .then(data => {
+                this.job = data
+            })
+        }
     }
 </script>
 
 <template>
-    <h1>Job Details Page</h1>
-    <p>The Job ID is {{id}}</p>    
+        <div v-if="job">
+            <h1>{{job.title}}</h1>
+            <p>{{job.details}}</p>
+        </div>
 </template>
 
 <style scoped>
